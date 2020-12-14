@@ -57,7 +57,7 @@ const Metodologia = () => {
                         </strong>
                     </p>
                     <p>
-                        <strong>Onde encontro o Datablo nas reder sociais?</strong><br />
+                        <strong>Onde encontro o Datablo nas redes sociais?</strong><br />
                         <strong><a className="outLink" href="https://twitter.com/datablo" rel="noreferrer" target="_blank">Twitter</a></strong><br />
                         <strong><a className="outLink" href="https://www.instagram.com/datablo/" rel="noreferrer" target="_blank">Instagram</a></strong><br />
                     </p>

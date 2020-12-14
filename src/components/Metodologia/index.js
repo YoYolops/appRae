@@ -49,8 +49,8 @@ const Metodologia = () => {
                         de democratizar o acesso a informação para que ela possa ser usada em prol dos estudantes.
                         Para ter acesso aos dados, <strong>
                             <a className="outLink" 
-                                href="./backup.csv"
-                                download="backup.csv">
+                                href="./dados.zip"
+                                download="dados.zip">
                                  clique aqui
                             </a>
                         </strong>

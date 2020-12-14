@@ -1,0 +1,122 @@
+.main {
+    width: 70%;
+    height: 100%;
+}
+
+.gContainer {
+    margin-right: 60px;
+    width: 90%;
+    justify-content: center;
+}
+
+.dafault_page {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-default);
+}
+
+.blockTitle {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+    margin-right: 60px;
+    padding-right: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.presentation .text {
+    padding: 60px;
+    margin-right: 60px;
+    width: 90%;
+    justify-content: center;
+    column-count: 2;
+    column-gap: 20px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    line-height: 26px;
+}
+
+.gTitle {
+    color: var(--text-color);
+    font-size: 1.05rem;
+    text-align: center;
+    margin: 30px 60px 10px 0px;
+    padding:10px 60px 10px 30px
+}
+
+
+.nav {
+    width: 20%;
+    position: fixed !important;
+}
+
+
+
+@media screen and (max-width: 980px){
+    .main{
+        width: 100%;
+    }
+
+    .blockTitle {
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    .gContainer {
+        margin-right: none;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .gTitle {
+        margin: 30px 30px;
+        padding:10px 15px;
+    }
+
+    .presentation .text {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+
+    .blockTitle {
+        display: flex;
+        justify-content: center;
+        font-size: 1.4rem;
+    }
+
+    .gContainer {
+        margin-right: none;
+        width: 100%;
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    .gTitle {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 15px;
+        padding:10px 15px;
+    }
+
+    .presentation .text {
+        width: 100%;
+        padding: 40px;
+        column-count: 1;
+        font-size: 1.1rem;
+        column-gap: 0;
+    }
+
+    .presentation .text .p1 {
+        margin-bottom: 20px;
+    }
+}
+
+.default_page .main #g1 {
+    height: 1550px;
+}

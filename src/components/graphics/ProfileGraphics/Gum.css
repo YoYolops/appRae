@@ -1,0 +1,17 @@
+.gum {
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.graph{
+    width: 100vw;
+}
+
+@media screen and (max-width: 650px){
+    .gum {
+        margin: 0 0%;
+        width: 100%;
+    }
+
+}

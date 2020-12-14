@@ -1,0 +1,97 @@
+font-face {
+    font-family: 'Origami Making';
+    src: url('../../../assets/fonts/origami_making.ttf');
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 60px;
+}
+#sec-curve {
+    position: relative;
+    width: 10%;
+    height: 100%;
+}
+#curve{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    
+}
+#curve path{
+    fill: #26292c;
+}
+
+.title-page{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 5% 5%;
+}
+
+.title-page h1{
+    color: var(--orange);
+    font-family: 'Origami Making';
+    font-weight: 700;
+    font-size: 56px;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 0.5rem;
+}
+
+.title-page p{
+    max-width: 500px;
+    text-align: start;
+    font-size: 27px;
+    color: var(--text-color);
+}
+
+
+.title-btn {
+    position: relative;
+    z-index: 1; 
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-link{
+    width: 47%;
+}
+
+.title-btn .btn-link:first-child{
+    margin-right: 10%;
+}
+
+@media screen and (max-width: 650px){
+
+    .title-page h1{
+        font-size: 42px;
+        text-align: start;
+        margin-bottom: 3%;
+
+    }
+
+    .title-page p{
+        font-size: 22px;
+        width: 100%;
+        text-align: start;
+        margin-bottom: 5%;
+    }
+    .title-btn{
+        max-width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .btn-link{
+        width: 100%;
+    }
+
+    .title-btn:last-child{
+        margin-bottom: 10%;
+    }
+
+}

@@ -7,7 +7,7 @@ const LandingPage = () => {
     return(
         <div class='landing'>
           <section id="sec-curve">
-            <svg id="curve" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 600"><defs></defs><title>Prancheta 1</title><path class="cls-1" d="M.5,521.5s184-585,650-293,750,272,750,272V-.5H.5Z"/></svg>
+            <svg id="curve" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 600"><defs></defs><title>Consulta RAE</title><path class="cls-1" d="M.5,521.5s184-585,650-293,750,272,750,272V-.5H.5Z"/></svg>
           </section>
           <div class='title-page'>
             <h1><i class="fas fa-database"/> Datablo</h1>

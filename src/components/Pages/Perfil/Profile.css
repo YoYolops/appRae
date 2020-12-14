@@ -7,12 +7,19 @@
     flex-direction: row;
     width: 50%;
     margin: 0 auto;
+    margin-right: 30%;
     align-items: center;
 }
 
 .menu-graph a, button{
     margin: 0 2%;
     width: 100%;
+}
+
+@media screen and (max-width: 980px){
+    .menu-graph{
+        margin-right: 25%;
+    }
 }
 
 @media screen and (max-width: 650px){
